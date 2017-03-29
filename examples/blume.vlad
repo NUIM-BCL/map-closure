@@ -1,0 +1,9 @@
+;;; $Id: blume.vlad,v 1.1 2006/12/12 03:47:30 qobi Exp $
+
+(include "set")
+
+(let ((x 1))
+ (let ((f (lambda () x)))
+  (let ((x 2))
+   (let (((ignore) (set! x 3)))
+    (list (f) x)))))

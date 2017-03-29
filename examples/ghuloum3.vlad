@@ -1,0 +1,14 @@
+;;; $Id: ghuloum3.vlad,v 1.1 2006/12/22 22:25:23 qobi Exp $
+
+(include "set.vlad")
+
+(let ((g (cons 1 1)))
+ (let ((g (cons g g)))
+  (let ((g (cons g g)))
+   (let ((g (cons g g)))
+    (let ((g (cons g g)))
+     (let ((g (cons g g)))
+      (let ((g (cons g g)))
+       (let ((g (cons g g)))
+	(let (((ignore) (set! g (cons g 12))))
+	 (cdr g))))))))))

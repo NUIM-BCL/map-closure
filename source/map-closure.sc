@@ -1,6 +1,4 @@
 ;;; LaHaShem HaAretz U'Mloah
-;;; $Id: map-closurelib-stuff.sc,v 1.13 2006/12/26 06:09:10 qobi Exp $
-;;; $Id: map-closure.sc,v 1.7 2006/12/25 23:43:32 qobi Exp $
 
 ;;; Map-Closure 0.4
 ;;; Copyright 2006 Purdue University. All rights reserved.

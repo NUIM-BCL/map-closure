@@ -1,5 +1,5 @@
 #!/bin/tcsh -f
-# $Id: run,v 1.7 2006/12/22 22:28:12 qobi Exp $
+
 setenv OPTIONS "-cps-evaluator -lazy-map-closure"
 unlimit stack
 echo Example 1

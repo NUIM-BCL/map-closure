@@ -1,5 +1,3 @@
-;;; $Id: ex1.sc,v 1.3 2006/12/14 22:37:02 qobi Exp $
-
 (define (lift-+ +)
  (lambda (x y)
   (if (pair? x)

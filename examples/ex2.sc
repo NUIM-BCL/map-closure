@@ -1,5 +1,3 @@
-;;; $Id: ex2.sc,v 1.3 2006/12/14 22:37:02 qobi Exp $
-
 (define (f x) (+ x x))
 
 (define g (let ((y 10)) (lambda (x) (+ x y))))

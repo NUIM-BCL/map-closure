@@ -58,6 +58,8 @@
 ;;; 13. Maybe put back checks for "SCEVAL_INTERPRETED-PROC" and
 ;;;     "LOOP [inside EXEC]".
 
+(include "../dependencies/define-macro/define-macro.scm")
+
 (define-macro (define-structure . form)
  ;; needs work: To check that SLOTS is disjoint.
  (let ((form (cons 'define-structure form)))

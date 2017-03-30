@@ -1,0 +1,3 @@
+[submodule "dependencies/define-macro"]
+	path = dependencies/define-macro
+	url = https://gist.github.com/dpk/1975487

@@ -22,8 +22,7 @@ $ cd examples
 ```
 This takes under a second on an FX-60.
 
-The output we get is in popl2007b/examples/run.text in case you don't care to
-run it yourself.
+The output we get is in [examples/run.text](examples/run.text) in case you don't care to run it yourself.
 
 ## References
 
